@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="300dp"
+    app:cardCornerRadius="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagebaner"
+        android:layout_width="360dp"
+        android:layout_height="315dp"
+        android:contentDescription="@string/banner_description_text"
+        android:scaleType="fitXY"
+        android:src="@drawable/chestnmusweb"
+
+        />
+
+    <TextView
+        android:id="@+id/Description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerViewBaner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+
+        />
+
+
+
+</com.google.android.material.card.MaterialCardView>
